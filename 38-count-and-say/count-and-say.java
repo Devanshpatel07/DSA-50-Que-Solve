@@ -3,7 +3,7 @@ class Solution {
         if(n == 1){
             return "1";
         }
-        String result = "1";
+        String result = "1"; //
         for(int i=2 ; i<=n ; i++){
             StringBuilder temp = new StringBuilder();
             int count =1;
